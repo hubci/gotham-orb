@@ -54,7 +54,7 @@ commands:
                 ;;
             esac
 
-            dlURL=https://github.com/gothamhq/gotham/releases/download/v<< parameters.version >>/gotham-<< parameters.version >>-${OS}-amd64.${PKG_EXT}
+            dlURL=https://github.com/gothamhq/gotham/releases/download/v<< parameters.version >>/gotham-v<< parameters.version >>-${OS}-amd64.${PKG_EXT}
 
             # If the download fails...
             if curl --fail -sSL "$dlURL" 2>/dev/null | $SUDO tar -xz -C /usr/local/bin gotham 2>/dev/null; then
