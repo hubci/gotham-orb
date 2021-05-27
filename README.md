@@ -1,5 +1,7 @@
 # Gotham Orb [![CircleCI Build Status](https://circleci.com/gh/hubci/gotham-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/hubci/gotham-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/hubci/gotham)][reg-page] [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/hubci/gotham-orb/blob/master/LICENSE)
 
+***This orb has been superceded by [HubCI/strawberry](https://github.com/hubci/strawberry-orb).***
+
 This orb allows you to easily install and use Gotham (or Hugo) on CircleCI.
 Gotham is a static site generator used to build fast, efficient, and secure websites from Markdown files.
 Gotham is a soft fork of Hugo and is 99% compatible so this orb will work to build, test, and deploy both Gotham and Hugo websites.
